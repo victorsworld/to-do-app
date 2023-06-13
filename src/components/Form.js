@@ -13,7 +13,7 @@ function Form({ handleNewTodo }) {
         <div>
             <form onSubmit={handleOnSubmit}>
                 <input value={input} onChange= {(e) => setInput(e.target.value)}/>
-                <button>Add</button>
+                <button className="add">Add</button>
             </form>
         </div>
     )
