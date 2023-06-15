@@ -9,21 +9,47 @@
 }
 
 button{
-  padding: 5px;
-  margin: 5px;
-  width: 60px;
+  
+  width: 100px;
   color: white;
   border: black solid 2px;
   border-radius: 5%;
   box-shadow: black 5px;
 }
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.ulist{
+  padding: 2px;
+  margin: 2px;
+}
+.menu-item{
+  background-color:cadetblue;
+}
 .edit {
   background-color: green;
+  padding: 5px;
+  margin: 5px;
 }
 .delete {
   background-color: red;
+  padding: 5px;
+  margin: 5px;
+}
+.submit{
+  background-color: green;
+  padding: 5px;
+  margin: 5px;
+}
+.cancel{
+  background-color: red;
+  padding: 5px;
+  margin: 5px;
 }
 .add{
   background-color: gray;
+  padding: 5px;
+  margin: 5px;
 }
 
